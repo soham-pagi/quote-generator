@@ -110,11 +110,13 @@ button:active {
 .twitter:hover {
     background-color: #1DA1F2;
     color: white;
+    padding: 5px;
 }
 
 .new-quote:hover {
     background-color: #38E54D;
     color: white;
+    padding: 5px;
 }
 
 .fa-twitter {
@@ -136,6 +138,28 @@ button {
     height: 3rem;
     animation: spin 0.7s linear infinite;
 }
+
+.footer-links #facebook:hover{
+    color: #3b5998;
+}
+
+.footer-links #insta:hover{
+    color: #ff9aab;
+}
+
+.footer-links #twitter:hover{
+    color: #1DA1F2;
+}
+
+.footer-links #github:hover{
+    color: grey;
+}
+
+.footer-links #dribble:hover{
+    color: #ff8833;
+}
+
+
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
