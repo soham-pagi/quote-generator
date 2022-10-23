@@ -23,7 +23,7 @@ async function newQuote() {
         .then(data => data)
         .catch(error => {
             newQuote();
-            console.log(error);
+            alert(error);
         });
     
     if (q.content.length > 100) {
